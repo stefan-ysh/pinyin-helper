@@ -1,0 +1,14 @@
+<view class="caption-wrap">
+    <i-collapse accordion name="单韵母声调 Single Vowel Tone">
+        <i-collapse-item wx:for="{{toneList}}" wx:key="index" title="{{item.title}}" name="{{item.title}}">
+            {{item.title}}
+            <view slot="content">
+                <view class="table">
+                    <view style="display:flex;justify-content:space-around" wx:for="{{item.tones}}" wx:key="index">
+                        <button class="pyBtn" wx:for="{{item.tone}}" wx:key="index" data-tone="{{item.tone}}" data-original="{{item.original}}" bindtap="play">{{item.py}}</button>
+                    </view>
+                </view>
+            </view>
+        </i-collapse-item>
+    </i-collapse>
+</view>

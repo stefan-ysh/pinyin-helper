@@ -1,0 +1,27 @@
+/* pages/tone/index.wxss */
+.table{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pyBtn{
+  /* padding: 0 !important;
+  width: 80rpx !important;
+  height: 80rpx !important;
+  line-height: 80rpx !important;
+  margin-top: 10rpx !important;
+  text-align: center !important; */
+  padding: 15rpx;
+  display: block !important;
+  width: 145rpx !important;
+  background-color: rgb(126, 179, 223);
+  margin: 15rpx 5rpx 0;
+
+  color: cornsilk;
+  box-shadow: 8rpx 8rpx 8rpx darkcyan;
+  transition: all 0.3s;
+}
+.pyBtn:active {
+  background-color: rgb(190, 190, 176);
+  box-shadow: none;
+}

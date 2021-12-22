@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/pinYin/index",
+    "pages/tone/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "PinYinHelper",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/pinYin/index",
+        "text": "拼音",
+        "iconPath": "icons/order.png",
+        "selectedIconPath": "icons/order-selected.png"
+      },
+      {
+        "pagePath": "pages/tone/index",
+        "text": "音调",
+        "iconPath": "icons/menu.png",
+        "selectedIconPath": "icons/menu-selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

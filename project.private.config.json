@@ -1,0 +1,30 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "音调",
+          "pathName": "pages/tone/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "录音调试",
+          "pathName": "pages/extense/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

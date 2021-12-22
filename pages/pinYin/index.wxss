@@ -1,0 +1,49 @@
+/* .out {
+  position: relative;
+} */
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pic {
+  height: 450rpx !important;
+  overflow: hidden;
+}
+
+.picImg {
+  position: absolute;
+  top: -270rpx;
+  width: 750rpx;
+}
+
+.caption-wrap {
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  top: 450rpx;
+}
+
+.descp {
+  top: 800rpx;
+  position: absolute;
+}
+
+.pyBtn {
+  padding: 15rpx;
+  display: block !important;
+  width: 145rpx !important;
+  background-color: rgb(126, 179, 223);
+  margin-top: 15rpx !important;
+  /* margin-left: 5rpx !important; */
+  color: cornsilk;
+  box-shadow: 8rpx 8rpx 8rpx darkcyan;
+  transition: all 0.3s;
+}
+
+.pyBtn:active {
+  background-color: rgb(190, 190, 176);
+  box-shadow: none;
+}

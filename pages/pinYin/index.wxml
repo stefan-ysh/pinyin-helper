@@ -1,0 +1,21 @@
+<view class="out">
+  <view class="pic">
+    <image class="picImg" mode="widthFix" src="{{imgUrl}}"></image>
+  </view>
+  <view class="caption-wrap">
+    <i-collapse accordion name="声母 Initials">
+      <i-collapse-item wx:for="{{dataList}}" wx:key="index" title="{{item.title}}" name="{{item.title}}">
+        <view slot="content">
+          <view class="table">
+            <button wx:for="{{item.pys}}" wx:key="index" class="pyBtn" data-type="{{item.type}}" data-item="{{item.py}}"
+              bindtap="play">{{item.py}}</button>
+          </view>
+        </view>
+      </i-collapse-item>
+    </i-collapse>
+  </view>
+  <!-- <i-tabs current="tab1" color="#f759ab">
+    <i-tab wx:for="{{dataList}}" wx:key="index" key="tab1" title="{{index}}">
+      <button wx:for="{{item.pys}}" wx:key="index" class="pyBtn" data-type="{{item.type}}" data-item="{{item.py}}" bindtap="play">{{item.py}}</button> </i-tab>
+  </i-tabs> -->
+</view>
